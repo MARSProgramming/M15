@@ -614,15 +614,11 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Command_Flywheel_SpinUp.vi" Type="VI" URL="../Auto/Auto Commands/Command_Flywheel_SpinUp.vi"/>
-			<Item Name="FalconRPMtoNative100ms.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/FalconRPMtoNative100ms.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Interpolate_ArrayTable.vi" Type="VI" URL="../Utility_VIs/Interpolate_ArrayTable.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Map_2Buttons_To_Throttle.vi" Type="VI" URL="../Utility_VIs/Map_2Buttons_To_Throttle.vi"/>
-			<Item Name="Map_2Buttons_To_Throttle_Multi_Power.vi" Type="VI" URL="../Utility_VIs/Map_2Buttons_To_Throttle_Multi_Power.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
