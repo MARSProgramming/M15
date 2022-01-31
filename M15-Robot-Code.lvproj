@@ -131,7 +131,14 @@ AddOutputFilter chunkFilter
 		<Item Name="Utility VIs" Type="Folder" URL="../Utility VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Determiner_Begin_Cluster.ctl" Type="VI" URL="../Systems/Shooter/Determiner/Determiner_Begin_Cluster.ctl"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Shooter_Begin.vi" Type="VI" URL="../Systems/Shooter/Determiner/Shooter_Begin.vi"/>
+		<Item Name="Shooter_Control_States.ctl" Type="VI" URL="../Systems/Shooter/Determiner/Shooter_Control_States.ctl"/>
+		<Item Name="Shooter_Determiner.vi" Type="VI" URL="../Systems/Shooter/Determiner/Shooter_Determiner.vi"/>
+		<Item Name="Shooter_Globals.vi" Type="VI" URL="../Systems/Shooter/Determiner/Shooter_Globals.vi"/>
+		<Item Name="Shooter_Teleop.vi" Type="VI" URL="../Systems/Shooter/Determiner/Shooter_Teleop.vi"/>
+		<Item Name="Untitled 1 (SubVI).vi" Type="VI" URL="../Systems/Shooter/Determiner/Untitled 1 (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
