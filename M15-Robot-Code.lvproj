@@ -16,9 +16,9 @@
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="Target" Type="RT myRIO">
-		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
+	<Item Name="SIGMABOT" Type="RT myRIO">
+		<Property Name="alias.name" Type="Str">SIGMABOT</Property>
+		<Property Name="alias.value" Type="Str">10.26.14.2</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,7AAE;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7AAE</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -131,16 +131,13 @@ AddOutputFilter chunkFilter
 		<Item Name="Teleop" Type="Folder" URL="../Teleop">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Test" Type="Folder" URL="../Test">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Utility VIs" Type="Folder" URL="../Utility VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Climber_Test.vi" Type="VI" URL="../Test/Climber_Test.vi"/>
-		<Item Name="Drive_Test.vi" Type="VI" URL="../Test/Drive_Test.vi"/>
-		<Item Name="Funnel_Test.vi" Type="VI" URL="../Test/Funnel_Test.vi"/>
-		<Item Name="Intake_Test.vi" Type="VI" URL="../Test/Intake_Test.vi"/>
-		<Item Name="Magazine_Test.vi" Type="VI" URL="../Test/Magazine_Test.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Shooter_Test.vi" Type="VI" URL="../Test/Shooter_Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -442,6 +439,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Refnum Registry Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/Refnum Registry Operation.ctl"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Report Read Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Report Read Error.vi"/>
 				<Item Name="Safe Image Get Image.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/Safe Image Get Image.vi"/>
@@ -733,7 +731,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{F0DE072B-DF39-4EFF-BF3D-EF36B6209FF1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/SIGMABOT/Robot Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
