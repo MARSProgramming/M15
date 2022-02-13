@@ -1,7 +1,0 @@
-MARS-PathPlanningTest
-{
-Drive.SetRobotPose(320, 25, 0, False);
-Drive.DrivePath(MARS-Heading-Tuning-Test2, 18, 20, 2, 0.5, 10, False);
-Drive.DrivePath(MARS-Heading-Tuning-Test-Part-2, 18, 20, 2, 0.5, 10, True);
-Intake.RunIntake(1, 3, True);
-}

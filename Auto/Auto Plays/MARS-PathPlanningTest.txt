@@ -1,5 +1,0 @@
-MARS-PathPlanningTest
-{
-Drive.DrivePath(18, 180, 2, 0.5, 10, False);
-Intake.RunIntake(1, 3, False);
-}
