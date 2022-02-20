@@ -700,6 +700,7 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_CANcoder_SetStatusFrameRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/CANCoder/Frame Rate/CTRE_Phoenix_CANcoder_SetStatusFrameRate.vi"/>
 				<Item Name="CTRE_PigeonIMU_StatusFrameRate.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_StatusFrameRate.ctl"/>
 				<Item Name="CTRE_PigeonIMU_SetStatusFrameRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_SetStatusFrameRate.vi"/>
+				<Item Name="CTRE_Phoenix_MotorController_GetStatusFramePeriod_Enhanced.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Frame Rate/CTRE_Phoenix_MotorController_GetStatusFramePeriod_Enhanced.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
