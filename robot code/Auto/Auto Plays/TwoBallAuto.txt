@@ -1,0 +1,10 @@
+TwoBallAuto 
+{
+Drive.SetRobotPose(0,0,133.5,0.1,False);
+Drive.DriveDistanceAtAngle(40,0,0.2,2,True); 
+Feeder.Feed(3,True);
+Drive.DriveDistanceAtAngle(0,0,0.2,0.1,False);
+Shooter.Shoot(5,True);
+Feeder.Shoot(2,True);
+Drive.DriveDistanceAtAngle(30,0,0.2,2,False);
+}
