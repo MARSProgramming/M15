@@ -1,6 +1,6 @@
 C-3BallAuto
 {
-Drive.SetRobotPose(281, 80, 226, 0.1, False);
+Drive.SetRobotPose(259, 99.5, 226, 0.1, False);
 Drive.DrivePath(C-3BallAuto, 18, 10, 2, 0.5, 10,True);
 Feeder.Feed(7,True);
 Shooter.Shoot(5,False);

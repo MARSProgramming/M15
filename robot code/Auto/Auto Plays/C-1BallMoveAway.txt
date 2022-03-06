@@ -1,6 +1,6 @@
 C-1BallMoveAway
 {
-Drive.SetRobotPose(251, 109, 226, 0.1, False);
+Drive.SetRobotPose(259, 99.5, 226, 0.1, False);
 Feeder.Shoot(3, True);
 Shooter.Shoot(3, True);
 Drive.DrivePath(C-MoveAway, 18, 20, 2, 0.5, 10, False);
