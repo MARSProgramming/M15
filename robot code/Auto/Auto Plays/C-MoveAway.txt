@@ -1,0 +1,5 @@
+C-MoveAway
+{
+Drive.SetRobotPose(251, 109, 226, 0.1, False);
+Drive.DrivePath(C-MoveAway, 18, 20, 2, 0.5, 10, False);
+}

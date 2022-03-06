@@ -1,0 +1,7 @@
+A-1BallMoveAway
+{
+Drive.SetRobotPose(240, 202.5, 136, 0.1, False);
+Feeder.Shoot(3, True);
+Shooter.Shoot(3, True);
+Drive.DrivePath(A-MoveAway, 18, 20, 2, 0.5, 10, False);
+}
