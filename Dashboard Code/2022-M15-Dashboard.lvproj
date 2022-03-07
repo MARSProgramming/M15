@@ -262,7 +262,6 @@
 			</Item>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
 			<Item Name="NTSend.vi" Type="VI" URL="../MARS Created VIs/new new/NTSend.vi"/>
-			<Item Name="Drive_Orientation_States.ctl" Type="VI" URL="../../../2021-MARS-Swerve/Subsystems/Drive/Drive_Orientation_States.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
