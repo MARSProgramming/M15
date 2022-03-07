@@ -1,0 +1,5 @@
+B-MoveArms
+{
+Drive.SetRobotPose(234, 156, 182, 0.1, False);
+Climber.MoveArmsToSafety(-0.2, 950, -0.2, 1500, 2, False);
+}

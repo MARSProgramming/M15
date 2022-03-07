@@ -1,0 +1,8 @@
+B-1BallMoveAway
+{
+Drive.SetRobotPose(234, 156, 182, 0.1, False);
+Climber.MoveArmsToSafety(-0.2, 950, -0.2, 1500, 2, False);
+Feeder.Shoot(3, True);
+Shooter.Shoot(3, True);
+Drive.DrivePath(B-MoveAway, 18, 20, 2, 0.5, 10, False);
+}

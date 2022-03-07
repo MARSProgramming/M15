@@ -1,0 +1,6 @@
+C-MoveAway
+{
+Drive.SetRobotPose(259, 99.5, 226, 0.1, False);
+Climber.MoveArmsToSafety(-0.2, 950, -0.2, 1500, 2, False);
+Drive.DrivePath(C-MoveAway, 8, 15, 2, 0.5, 10, False);
+}
