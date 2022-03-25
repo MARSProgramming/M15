@@ -14,7 +14,7 @@ Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
 Drive.DrivePath(D-5BallPart2, 8, 15, 2, 0.5, 5, True);
 Feeder.Feed(5, True);
 Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
-Drive.DrivePath(D-5BallPart3, 8, 15, 2, 0.5, 3, False);
+Drive.DrivePath(ShootHPBalls, 8, 15, 2, 0.5, 3, False);
 Feeder.Shoot(3, True);
 Shooter.Shoot(3, True);
 Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);

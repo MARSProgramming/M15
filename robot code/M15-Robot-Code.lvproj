@@ -13,7 +13,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="shootingwhilemoving.vi" Type="VI" URL="../../../../../Desktop/shootingwhilemoving.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="Interpolate_ArrayTable.vi" Type="VI" URL="../Utility VIs/Interpolate_ArrayTable.vi"/>
+			<Item Name="Shooter_Control_States.ctl" Type="VI" URL="../Systems/Shooter/Determiner/Shooter_Control_States.ctl"/>
+			<Item Name="Shooter_Cluster.ctl" Type="VI" URL="../Systems/Shooter/Determiner/Shooter_Cluster.ctl"/>
+			<Item Name="Shooter_Globals.vi" Type="VI" URL="../Systems/Shooter/Determiner/Shooter_Globals.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="SIGMABOT" Type="RT myRIO">
