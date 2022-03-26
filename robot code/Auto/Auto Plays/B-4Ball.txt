@@ -1,7 +1,7 @@
 B-4Ball
 {
 Drive.SetRobotPose(234, 156, 182, 0.1, False);
-Climber.MoveArmsToSafety(-0.2, 950, -0.2, 1500, 2, False);
+Climber.MoveArmsToSafety(1, False);
 Feeder.Feed(5, True)
 Drive.DrivePath(B-4BallFirst2, 8, 15, 2, 0.5, 5, True);
 Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);

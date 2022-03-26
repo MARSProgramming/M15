@@ -1,4 +1,4 @@
 MoveArmsToSafety
 {
-Climber.MoveArmsToSafety(-0.2, -800, -0.2, 1500, 3, False);
+Climber.MoveArmsToSafety(1, False);
 }
