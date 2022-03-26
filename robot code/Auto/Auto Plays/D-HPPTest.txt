@@ -1,0 +1,6 @@
+D-HPPTest
+{
+Drive.SetRobotPose(298, 73, 272.5, 0.1, False);
+Climber.MoveArmsToSafety(1, False);
+Drive.DrivePath(D-HPPTest, 18, 20, 2, 0.5, 10, False);
+}

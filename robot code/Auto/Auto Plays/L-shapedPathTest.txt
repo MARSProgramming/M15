@@ -1,5 +1,6 @@
 L-shapedPathTest
 {
 Drive.SetRobotPose(120, 160, 0, 0.1, False);
-Drive.DrivePath(L-shaped-test, 18, 20, 2, 0.5, 10, False);
+Climber.MoveArmsToSafety(1, False);
+Drive.DrivePath(L-shaped-test, 6, 10, 2, 0.5, 10, False);
 }
