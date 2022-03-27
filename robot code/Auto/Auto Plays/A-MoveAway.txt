@@ -1,6 +1,6 @@
 A-MoveAway
 {
 Drive.SetRobotPose(240, 204.5, 136, 0.1, False);
-Climber.MoveArmsToSafety(-0.2, 950, -0.2, 1500, 2, False);
+Climber.MoveArmsToSafety(1, False);
 Drive.DrivePath(A-MoveAway, 18, 20, 2, 0.5, 10, False);
 }
