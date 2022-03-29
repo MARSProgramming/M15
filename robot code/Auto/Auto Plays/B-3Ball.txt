@@ -1,0 +1,13 @@
+B-3Ball
+{
+Drive.SetRobotPose(234, 156, 182, 0.1, False);
+Climber.MoveArmsToSafety(1, False);
+Feeder.Shoot_From_Pose(3, True);
+Shooter.Shoot_From_Pose(3, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Drive.DrivePath(B-3Ball, 8, 15, 2, 0.5, 5, False);
+Feeder.Feed(2, False);
+Drive.DrivePath(ShootHPBalls, 8, 15, 2, 0.5, 5, False);
+Feeder.Shoot(3, True);
+Shooter.Shoot(3, True);
+}
