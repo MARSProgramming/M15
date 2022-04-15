@@ -7,6 +7,7 @@ Shooter.Shoot_From_Pose(1.5, True);
 Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
 Drive.DrivePath(D-3BallFaster, 8, 15, 2, 0.5, 4, True);
 Feeder.Feed(4, True);
+Shooter.TurretControl(4000, 4, True);
 Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
 Feeder.Shoot(1.5, True);
 Shooter.Shoot(1.5, True);
