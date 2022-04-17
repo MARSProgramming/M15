@@ -1,0 +1,29 @@
+D-5BallTwoBallsFirst
+{
+Drive.SetRobotPose(298, 73, 271.5, 0.1, False);
+Climber.MoveArmsToSafety(0.5, True);
+Drive.DrivePath(D-FirstTwo, 8, 15, 2, 0.5, 1, True);
+Feeder.Feed(1, True);
+Shooter.Passive_Flywheel(1, 4000, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Feeder.Shoot(1.5, True);
+Shooter.Shoot(1.5, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Drive.DrivePath(D-GrabThird, 8, 15, 2, 0.5, 2.4, True);
+Feeder.Feed(2.4, True);
+Shooter.TurretControl(4000, 2.4, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Feeder.Shoot(1, True);
+Shooter.Shoot(1, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Drive.DrivePath(D-5BallGetLast2, 8, 15, 2, 0.5, 2.9, True);
+Feeder.Feed(3.5, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Feeder.Feed(1.5, True);
+Drive.DrivePath(ShootHPBalls, 8, 15, 2, 0.5, 1.8, True);
+Shooter.TurretControl(4000, 1.8, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Feeder.Shoot(3, True);
+Shooter.Shoot(3, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+}
