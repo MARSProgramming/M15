@@ -2,16 +2,9 @@ A-2Ball
 {
 Drive.SetRobotPose(240, 204.5, 136, 0.1, False);
 Climber.MoveArmsToSafety(1, False);
-Drive.DrivePath(A-2Ball, 8, 15, 2, 0.5, 3.5,True);
-Feeder.Feed(3, True);
+Drive.DrivePath(A-2Ball, 8, 15, 2, 0.5, 2, True);
+Feeder.Feed(2.5, True);
 Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
 Feeder.Shoot(3, True);
 Shooter.Shoot(3, True);
-Drive.DriveDistanceAtAngle(0, 0, 0, 0, False); 
-Drive.DrivePath(A-2Ball-Part_2, 5, 15, 2, 0.5, 4,True); 
-Feeder.Feed(4, True);
-Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
-Feeder.Puke(3, True); 
-Shooter.Puke_Op(3, 1000, 61, True); 
-Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
 }
