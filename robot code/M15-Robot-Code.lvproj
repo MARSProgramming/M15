@@ -133,6 +133,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="M15-Robot-Code.aliases" Type="Document" URL="../M15-Robot-Code.aliases"/>
 		</Item>
 		<Item Name="Test" Type="Folder" URL="../Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -717,7 +718,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">54</Property>
+				<Property Name="Bld_version.build" Type="Int">55</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
