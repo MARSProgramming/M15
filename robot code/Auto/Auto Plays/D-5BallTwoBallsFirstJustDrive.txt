@@ -1,0 +1,13 @@
+D-5BallTwoBallsFirstJustDrive
+{
+Drive.SetRobotPose(298, 73, 271.5, 0.1, False);
+Climber.MoveArmsToSafety(0.5, True);
+Drive.DrivePath(D-FirstTwo, 8, 15, 2, 0.5, 1.5, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Drive.DrivePath(D-GrabThird, 8, 15, 2, 0.5, 2, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Drive.DrivePath(D-5BallGetLast2, 8, 15, 2, 0.5, 2.9, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+Drive.DrivePath(ShootHPBalls, 8, 15, 2, 0.5, 1.8, True);
+Drive.DriveDistanceAtAngle(0, 0, 0, 0, False);
+}
