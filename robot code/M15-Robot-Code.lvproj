@@ -15,7 +15,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="NewTurretControlTest.vi" Type="VI" URL="../../NewTurretControlTest.vi"/>
 		<Item Name="Untitled 3.vi" Type="VI" URL="../../../../../Desktop/Untitled 3.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="SIGMABOT" Type="RT myRIO">
