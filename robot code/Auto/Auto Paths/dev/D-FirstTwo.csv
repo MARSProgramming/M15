@@ -1,5 +1,6 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Distance (in),Time (s),X (in),Y (in),Velocity (in/s),Orientation (deg),Touch,Way X (in),Way Y (in),Way Velocity (in/s),Way Orientation (deg),Way Turn Radius (in),Touch this Point
 0.0,0.0,298.0,73.0,60.0,272.5,0,298.0,73.0,60.0,272.5,3.0,0.0
 1.000000000000004,0.016754819408190135,297.9736933179118,72.00034608064715,59.36863962988241,272.4342332947794,0,297.0,35.0,36.0,270.0,9.0,0
@@ -44,6 +45,8 @@ Distance (in),Time (s),X (in),Y (in),Velocity (in/s),Orientation (deg),Touch,Way
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Distance (in),Time (s),X (in),Y (in),Velocity (in/s),Orientation (deg),Touch,Rotational Velocity (deg/s),Way X (in),Way Y (in),Way Velocity (in/s),Way Orientation (deg),Way Turn Radius (in),Touch this Point
 0.0,0.0,298.0,73.0,60.0,272.5,0,0.0,298.0,73.0,60.0,272.5,3.0,0.0
 0.9999999999999991,0.016759453121772242,297.91695452014625,72.00345424175512,59.33563616117008,272.49435653709446,0,-0.3292344926304035,295.0,37.0,36.0,270.0,9.0,0
@@ -84,6 +87,9 @@ Distance (in),Time (s),X (in),Y (in),Velocity (in/s),Orientation (deg),Touch,Rot
 35.99999999999999,0.7654185818570033,295.01036272526494,37.1243527031844,36.08290180212285,269.9845640993832,0,0.0,,,,,,
 36.12478373637691,0.7688808102983462,295.0,37.0,36.0,269.9845640993832,0,0.0,,,,,,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
